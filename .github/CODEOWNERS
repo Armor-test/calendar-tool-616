@@ -1,0 +1,36 @@
+# CODEOWNERS file for calendar-tool-616
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reliability @Armor-test/grp-reporting @Armor-test/grp-storage
+
+# Directory ownership
+/hooks/ @Armor-test/team-security @Armor-test/dept-ui @Armor-test/dept-billing
+/ui/ @Armor-test/grp-ui @Armor-test/dept-ui @Armor-test/team-notifications
+/middleware/ @Armor-test/squad-payments @Armor-test/dept-reporting @Armor-test/squad-cache
+/static/ @Armor-test/dept-data @Armor-test/unit-cloud
+/api/ @Armor-test/dept-billing @Armor-test/grp-payments
+/styles/ @Armor-test/squad-api @Armor-test/grp-reporting
+/db/ @Armor-test/squad-mobile @Armor-test/squad-frontend
+/scripts/ @Armor-test/grp-reporting @Armor-test/grp-payments @Armor-test/squad-api
+/controllers/ @Armor-test/squad-reporting @Armor-test/team-reporting @Armor-test/team-notifications
+/auth/ @Armor-test/dept-notifications @Armor-test/team-reporting @Armor-test/team-core
+
+# File type ownership
+*.ini @Armor-test/unit-devops @Armor-test/unit-governance @Armor-test/team-core
+*.gradle @Armor-test/squad-cache @Armor-test/grp-reporting
+*.yaml @Armor-test/dept-billing @Armor-test/dept-test @Armor-test/grp-api
+*.js @Armor-test/squad-mobile @Armor-test/dept-notifications
+*.swift @Armor-test/squad-mobile @Armor-test/grp-search @Armor-test/dept-test
+*.sh @Armor-test/grp-storage @Armor-test/grp-api @Armor-test/grp-search
+*.xml @Armor-test/dept-notifications @Armor-test/grp-ui @Armor-test/team-security
+*.ts @Armor-test/dept-release @Armor-test/unit-test @Armor-test/grp-integration
+*.html @Armor-test/squad-mobile @Armor-test/squad-tooling @Armor-test/squad-search
+*.kt @Armor-test/squad-database @Armor-test/unit-test @Armor-test/dept-release
+*.c @Armor-test/squad-mobile @Armor-test/squad-reporting
+*.scss @Armor-test/squad-cache @Armor-test/dept-ui @Armor-test/squad-reporting
+*.properties @Armor-test/dept-reliability @Armor-test/squad-qa @Armor-test/squad-ux
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
